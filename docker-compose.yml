@@ -6,7 +6,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: mixroof_container
+    container_name: mysite_container
     ports:
       - 80:80
     volumes:
